@@ -114,6 +114,9 @@ p {
   margin-right: 50px;
 }
 .adds .link {
+  display: flex;
+  align-items: center;
+
   /* outline: 1px solid tomato; */
   color: inherit;
 
@@ -133,6 +136,13 @@ p {
 .page-header > .container,
 .site-nav {
   align-items: center;
+}
+.adds .adds-icon {
+  fill: var(--primary-text-color);
+  margin-right: 10px;
+}
+.adds-link:hover .adds-icon {
+  fill: var(--accent-color);
 }
 
 /* /HEADER */
