@@ -177,7 +177,7 @@ p {
     url(../images/bg-hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  /* background-size: contain; */
 
   padding-top: 200px;
   padding-bottom: 200px;
@@ -240,6 +240,13 @@ p {
   line-height: 1.14;
   text-transform: uppercase;
 }
+.quality .quality-wrapper {
+  height: 120px;
+  background-color: var(--button-grey-color);
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}
+
 /* /QUALITY */
 
 /* WORK */
